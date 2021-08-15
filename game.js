@@ -14,7 +14,7 @@ var myVar = setInterval(function(){
             start();
         }
 
-    }, 1000);
+    }, 500);
 
 
 $(document).keypress(function(){
