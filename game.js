@@ -45,7 +45,7 @@ function rewind(rn){
 }
 
 function gameOver(){
-    $("h1").text("Game Over ! Reload to restart !!")
+    $("h1").text("Game Over at level " + level + " !! Reload to restart..")
     seq = [];
     seqT = [];
     level = 0;
