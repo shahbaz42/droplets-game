@@ -1,7 +1,9 @@
 var seq = [];
 var seqT = [];
 var level = 0;
+var bgColor = ["#edeeed","#edeeed","#ffbdccbd", "#eca2b3bd", "#3ef5f5bd", "#7cf53ebd", "#ffc5c5bd", "#35bfffbd", "#f3ff35bd"];
 
+$("body").css("backgroundColor",bgColor[Math.floor(Math.random()*bgColor.length)]);
 
 var time = 3
 var myVar = setInterval(function(){
