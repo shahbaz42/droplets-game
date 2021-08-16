@@ -1,5 +1,9 @@
 body{
   background : #edeeed;
+  /* To prevent accidently selecting text */
+  user-select: none;
+  /* to remove blue highlight color when clicking in chrome */
+  -webkit-tap-highlight-color: transparent;
 }
 
 .heading{
